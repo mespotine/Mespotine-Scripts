@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Ultraschall-API">
+<index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="extension">
       <version name="0.01" author="Meo Mespotine">
-	<source main="true" file="/ultraschall_Help_Reaper_Api_Web_Documentation.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Help_Reaper_Api_Web_Documentation.lua</source>
-	<source main="true" file="/ultraschall_Help_Reaper_ConfigVars_Documentation.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Help_Reaper_ConfigVars_Documentation.lua</source>
-	<source main="true" file="/ultraschall_Help_Ultraschall_Api_Functions_Reference.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Help_Ultraschall_Api_Functions_Reference.lua</source>
-	<source main="true" file="/ultraschall_Help_Ultraschall_Api_Introduction_and_Concepts.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Help_Ultraschall_Api_Introduction_and_Concepts.lua</source>
-	<source main="true" file="/ultraschall_Help_Lua_Reference_Manual.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Help_Lua_Reference_Manual.lua</source>
-	<source main="true" file="/ultraschall_OpenFolder_Api_Documentation.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_OpenFolder_Api_Documentation.lua</source>
-	<source main="true" file="/ultraschall_OpenFolder_Api_ExampleScripts.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_OpenFolder_Api_ExampleScripts.lua</source>
-	<source main="true" file="/ultraschall_Remove_ExampleScripts_From_Reaper.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Remove_ExampleScripts_From_Reaper.lua</source>
-	<source main="true" file="/ultraschall_Remove_Developertools_From_Reaper.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Remove_Developertools_From_Reaper.lua</source>
+	<source main="true" file="/Mespotine-Scripts\Mespotine_Marker_Selector" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
 <changelog><![CDATA[
 ]]>
 </changelog>
       </version>
       <metadata>
-        <link rel="website">http://ultraschall.fm/api/</link>
+        <link rel="website">http://mespotine.de/</link>
         <link rel="donation" href="http://ultraschall.fm/danke">Label</link>
         <description>Test</description>      </metadata>
     </reapack>
