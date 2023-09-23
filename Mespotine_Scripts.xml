@@ -3,7 +3,7 @@
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="extension">
       <version name="0.01" author="Meo Mespotine">
-	<source main="true" file="/Mespotine-Scripts\Mespotine_Marker_Selector" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
+	<source main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
 <changelog><![CDATA[
 ]]>
 </changelog>
