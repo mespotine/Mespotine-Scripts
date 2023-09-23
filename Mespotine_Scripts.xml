@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="Ultraschall-API">
-  <category name="Ultraschall-API-category">
-    <reapack name="Ultraschall API package" type="extension">
+  <category name="Mespotine-Scripts-category">
+    <reapack name="Mespotine Scripts API package" type="extension">
       <version name="0.01" author="Meo Mespotine">
 	<source main="true" file="/ultraschall_Help_Reaper_Api_Web_Documentation.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Help_Reaper_Api_Web_Documentation.lua</source>
 	<source main="true" file="/ultraschall_Help_Reaper_ConfigVars_Documentation.lua" type="script">https://raw.githubusercontent.com/Ultraschall/ultraschall-lua-api-for-reaper/Ultraschall-API-4.2.006//ultraschall_api/Scripts/ultraschall_Help_Reaper_ConfigVars_Documentation.lua</source>
