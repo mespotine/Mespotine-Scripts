@@ -61,6 +61,8 @@ function WriteValueToFile(filename_with_path, value, binarymode, append)
   return 1
 end
 
+path=reaper.GetResourcePath().."/Scripts/Mespotine-Scripts And Extensions/Mespotine-Scripts-category/Mespotine-Scripts/"
+
 NumberScripts0=[[
 -- marker selector-script for the ]]
 NumberScripts1=[[-key by Meo-Ada Mespotine
@@ -82,11 +84,11 @@ NumberScripts2=
 
 
 for i=0, 9 do
-  reaper.RecursiveCreateDirectory(reaper.GetResourcePath().."/Scripts/Mespotine_Scripts/", 0)
-  WriteValueToFile(reaper.GetResourcePath().."/Scripts/Mespotine_Scripts/Mespotine_Marker_Selector_"..i..".lua", NumberScripts0..i..NumberScripts1..i..NumberScripts2)
+  reaper.RecursiveCreateDirectory(path, 0)
+  WriteValueToFile(path.."/Mespotine_Marker_Selector_"..i..".lua", NumberScripts0..i..NumberScripts1..i..NumberScripts2)
 end
 
-WriteValueToFile(reaper.GetResourcePath().."/Scripts/Mespotine_Scripts/Mespotine_Marker_Selector_Backgroundscript.lua", 
+WriteValueToFile(path.."/Mespotine_Marker_Selector_Backgroundscript.lua", 
 [[-- marker selector background-script by Meo-Ada Mespotine
 -- 23rd of September 2023
 -- licensed under MIT-license
@@ -147,7 +149,7 @@ end
 main()
 ]])
 
-WriteValueToFile(reaper.GetResourcePath().."/Scripts/Mespotine_Scripts/Mespotine_Marker_Selector_SetWaitTime.lua", 
+WriteValueToFile(path.."/Mespotine_Marker_Selector_SetWaitTime.lua", 
 [[
 -- marker selector wait time-setup by Meo-Ada Mespotine
 -- 23rd of September 2023
@@ -168,7 +170,6 @@ end
 
 
 retval, filename = reaper.get_action_context()
-path=reaper.GetResourcePath().."/Scripts/Mespotine_Scripts/"
 
 id=reaper.AddRemoveReaScript(true, 0, path.."/Mespotine_Marker_Selector_Backgroundscript.lua", true)
 id=reaper.AddRemoveReaScript(true, 0, path.."/Mespotine_Marker_Selector_SetWaitTime.lua", true)
