@@ -2,20 +2,60 @@
 <index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="script">
-      <version name="0.01" author="Meo Mespotine">
+      <version name="1.00" author="Meo Mespotine">
 	<source  main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector_Setup.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
-<changelog><![CDATA[
-]]>
+<changelog>
+  - 23rd of October - Marker Selector v1.1 added, which allows you to quickly type any marker number and Reaper will jump to it.
+                      Install it via "Mespotine_Marker_Selector_Setup.lua". After setup, you can type any marker number you like.
+                      The commit time between having typed the marker and Reaper jumping to the marker can be set up with "Mespotine_Marker_Selector_SetWaitTime.lua".
 </changelog>
       </version>
       <metadata>
         <link rel="website">http://mespotine.de/</link>
         <link rel="donation" href="http://ultraschall.fm/danke">Label</link>
-        <description>Test</description>      </metadata>
+        <description><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang7\b\f0\fs22 Mespotine Scripts and Extensions\par
+\par
+This is a collection of scripts and extensions written by Meo-Ada Mespotine.\par
+Most of the scripts are usable directly. Scripts who belong together as one feature have the same name at the beginning.(like Marker Selector)\par
+Some features need setup. In that case, look for the words "mespotine" "setup" in the actionlist. Doubleclick the action and go through the setup process.\par
+For instance:\par
+There's a feature called "Marker Selector" which allows you to quickly type the marker number and Reaper will jump to it(any marker number, actually).\par
+This will be setup by "Script: Mespotine_Marker_Selector_Setup.lua" in the actionlist.\par
+After having installed it, you can type any number and Reaper will go the the corresponding marker. All related scripts have "Mespotine_Marker_Selector" at the beginning of their name.\par
+\par
+All scripts are licensed under MIT-license, unless otherwise noted(usually in the scripts themselves).\par
+\par
+Have fun.\par
+\par
+Meo-Ada Mespotine - 23rd of october 2023 - mespotine.de\par
+Donations are welcome - {\field{\*\fldinst{HYPERLINK "https://mespotin.uber.space/Mespotine/mespotine-unterstuetzen/"}}{\fldrslt{\ul\cf1 https://mespotin.uber.space/Mespotine/mespotine-unterstuetzen/}}}\b0\f0\fs22\par
+}
+]]></description>      </metadata>
     </reapack>
   </category>
   <metadata>
     <link rel="website">http://mespotine.de/</link>
     <link rel="donation" href="http://ultraschall.fm/danke">Label</link>
-    <description>Test</description>  </metadata>
+    <description><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sa200\sl276\slmult1\lang7\b\f0\fs22 Mespotine Scripts and Extensions\par
+\par
+This is a collection of scripts and extensions written by Meo-Ada Mespotine.\par
+Most of the scripts are usable directly. Scripts who belong together as one feature have the same name at the beginning.(like Marker Selector)\par
+Some features need setup. In that case, look for the words "mespotine" "setup" in the actionlist. Doubleclick the action and go through the setup process.\par
+For instance:\par
+There's a feature called "Marker Selector" which allows you to quickly type the marker number and Reaper will jump to it(any marker number, actually).\par
+This will be setup by "Script: Mespotine_Marker_Selector_Setup.lua" in the actionlist.\par
+After having installed it, you can type any number and Reaper will go the the corresponding marker. All related scripts have "Mespotine_Marker_Selector" at the beginning of their name.\par
+\par
+All scripts are licensed under MIT-license, unless otherwise noted(usually in the scripts themselves).\par
+\par
+Have fun.\par
+\par
+Meo-Ada Mespotine - 23rd of october 2023 - mespotine.de\par
+Donations are welcome - {\field{\*\fldinst{HYPERLINK "https://mespotin.uber.space/Mespotine/mespotine-unterstuetzen/"}}{\fldrslt{\ul\cf1 https://mespotin.uber.space/Mespotine/mespotine-unterstuetzen/}}}\b0\f0\fs22\par
+}
+]]></description>  </metadata>
 </index>
