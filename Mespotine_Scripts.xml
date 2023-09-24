@@ -2,7 +2,7 @@
 <index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="script">
-      <version name="1.03" author="Meo Mespotine">
+      <version name="1.04" author="Meo Mespotine">
 	<source main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector_Setup.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_show_takename_in_tooltip_near_mouse.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ShowTakenameInTooltipNearMouse/Mespotine_show_takename_in_tooltip_near_mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ArrangeViewScripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua</source>
@@ -16,6 +16,7 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Nudge_RazorArea_Under_Mouse_10_seconds_right.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Nudge_RazorArea_Under_Mouse_10_seconds_right.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Remove_All_Razor_Areas_From_Track_Or_Envelope_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Remove_All_Razor_Areas_From_Track_Or_Envelope_Under_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Remove_RazorArea_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Remove_RazorArea_Under_Mouse.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Create_Around_Item_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Create_Around_Item_Under_Mouse.lua</source>
 <changelog>
   - 24th of September 2023 - Razor-Edit actions for nudging, removing razor areas, filling gaps and creating razor edits from time selection, all under the mouse.
 
