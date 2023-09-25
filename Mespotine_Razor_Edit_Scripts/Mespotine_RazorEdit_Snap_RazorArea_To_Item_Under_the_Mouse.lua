@@ -67,7 +67,7 @@ state=CheckForDependencies(false, true, true, true, false)
 if state==false then return end
 
 dofile(reaper.GetResourcePath().."/UserPlugins/ultraschall_api.lua")
-
+reaper.Undo_BeginBlock()
 
 MediaTrack = reaper.GetTrackFromPoint(reaper.GetMousePosition())
 Envelope = ultraschall.GetTrackEnvelopeFromPoint(reaper.GetMousePosition())
@@ -87,3 +87,4 @@ if item~=nil then
   end
 end
 
+reaper.Undo_EndBlock("Snap RazorEdit to Item", -1)

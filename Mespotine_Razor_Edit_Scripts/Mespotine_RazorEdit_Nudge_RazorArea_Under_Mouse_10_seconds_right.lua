@@ -68,7 +68,7 @@ if state==false then return end
 
 dofile(reaper.GetResourcePath().."/UserPlugins/ultraschall_api.lua")
 
-
+reaper.Undo_BeginBlock()
 razor_edit_index, start_position, end_position, track, envelope = ultraschall.RazorEdit_GetFromPoint(reaper.GetMousePosition())
 
 if envelope==nil then 
@@ -77,4 +77,4 @@ else
   retval = ultraschall.RazorEdit_Nudge_Envelope(envelope, 10, razor_edit_index)
 end
 
-
+reaper.Undo_EndBlock("Nudge Razor Edit 10 seconds right", -1)

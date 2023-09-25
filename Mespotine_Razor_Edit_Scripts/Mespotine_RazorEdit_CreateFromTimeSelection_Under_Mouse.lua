@@ -73,9 +73,10 @@ MediaTrack = reaper.GetTrackFromPoint(reaper.GetMousePosition())
 Envelope = ultraschall.GetTrackEnvelopeFromPoint(reaper.GetMousePosition())
 start, stop = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
 
+reaper.Undo_BeginBlock()
 if Envelope==nil then
   altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(MediaTrack, start, stop) 
 else
   altered_razor_edit_string = ultraschall.RazorEdit_Add_Envelope(Envelope, start, stop)
 end
-
+reaper.Undo_EndBlock("Create RazorEdit within Time Selection in Track "..math.tointeger(reaper.GetMediaTrackInfo_Value(MediaTrack, "IP_TRACKNUMBER")), -1)

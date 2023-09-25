@@ -68,6 +68,8 @@ if state==false then return end
 
 dofile(reaper.GetResourcePath().."/UserPlugins/ultraschall_api.lua")
 
+reaper.Undo_BeginBlock()
+
 --altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(reaper.GetTrack(0,0), 10, 20) altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(reaper.GetTrack(0,0), 30, 40) altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(reaper.GetTrack(0,0), 50, 60) envelope=reaper.GetTrackEnvelopeByName(reaper.GetTrack(0,0), "Volume") altered_razor_edit_string = ultraschall.RazorEdit_Add_Envelope(envelope, 10, 20) altered_razor_edit_string = ultraschall.RazorEdit_Add_Envelope(envelope, 30, 40) altered_razor_edit_string = ultraschall.RazorEdit_Add_Envelope(envelope, 50, 60) altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(reaper.GetTrack(0,1), 10, 20) altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(reaper.GetTrack(0,1), 30, 40) altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(reaper.GetTrack(0,1), 50, 60)
 
 razor_edit_index, start_position, end_position, track, envelope = ultraschall.RazorEdit_GetFromPoint(reaper.GetMousePosition())
@@ -80,4 +82,4 @@ if razor_edit_index==-1 then
   end
 end
 
-
+reaper.Undo_EndBlock("Fille in Gap between Razor Edits", -1)

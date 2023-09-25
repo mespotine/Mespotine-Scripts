@@ -74,12 +74,16 @@ Envelope = ultraschall.GetTrackEnvelopeFromPoint(reaper.GetMousePosition())
 
 x,y=reaper.GetMousePosition()
 item = reaper.GetItemFromPoint(x, y, true)
+reaper.Undo_BeginBlock()
 if item~=nil then
   start = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
   stop = start+reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
+  
   if Envelope==nil then
     altered_razor_edit_string = ultraschall.RazorEdit_Add_Track(MediaTrack, start, stop) 
   else
     altered_razor_edit_string = ultraschall.RazorEdit_Add_Envelope(Envelope, start, stop)
   end
 end
+
+reaper.Undo_EndBlock("Create RazorEdit around Item", -1)

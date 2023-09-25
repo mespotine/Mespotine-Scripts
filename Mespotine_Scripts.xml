@@ -2,7 +2,7 @@
 <index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="script">
-      <version name="1.06" author="Meo Mespotine">
+      <version name="1.07" author="Meo Mespotine">
 	<source main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector_Setup.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_show_takename_in_tooltip_near_mouse.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ShowTakenameInTooltipNearMouse/Mespotine_show_takename_in_tooltip_near_mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ArrangeViewScripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua</source>
@@ -23,6 +23,8 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Next_Transient_In_Item_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Next_Transient_In_Item_Under_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Previous_Transient_In_Item_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Previous_Transient_In_Item_Under_Mouse.lua</source>
 <changelog>
+  - 25th of September 2023 - Razor Edit actions create proper undo-points now
+
   - 25th of September 2023 - Razor Edit actions for enhancing edges of a razor area to the next/previous transient of an item under mouse.
   
   - 25th of September 2023 - Razor Edit actions for snapping edges of a razor-area to edges of an item.

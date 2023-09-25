@@ -72,10 +72,14 @@ dofile(reaper.GetResourcePath().."/UserPlugins/ultraschall_api.lua")
 
 razor_edit_index, start_position, end_position, track, envelope = ultraschall.RazorEdit_GetFromPoint(reaper.GetMousePosition())
 
+reaper.Undo_BeginBlock()
+
 if envelope==nil then 
   retval = ultraschall.RazorEdit_RemoveAllFromTrack(track)
 else
   retval = ultraschall.RazorEdit_RemoveAllFromEnvelope(envelope)
 end
+
+reaper.Undo_EndBlock("Remove RazorEdits from track "..math.tointeger(reaper.GetMediaTrackInfo_Value(track, "IP_TRACKNUMBER")), -1)
 
 

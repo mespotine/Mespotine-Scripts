@@ -68,6 +68,7 @@ if state==false then return end
 
 dofile(reaper.GetResourcePath().."/UserPlugins/ultraschall_api.lua")
 
+reaper.Undo_BeginBlock()
 reaper.PreventUIRefresh(1)
 x,y=reaper.GetMousePosition()
 MediaTrack = reaper.GetTrackFromPoint(reaper.GetMousePosition())
@@ -99,3 +100,4 @@ if item~=nil and razor_edit_index>-1 then
   reaper.UpdateArrange()
 end  
 reaper.PreventUIRefresh(1)
+reaper.Undo_EndBlock("Enhance RazorEdit to next transient", -1)
