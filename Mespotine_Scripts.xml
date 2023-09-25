@@ -2,7 +2,7 @@
 <index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="script">
-      <version name="1.07" author="Meo Mespotine">
+      <version name="1.08" author="Meo Mespotine">
 	<source main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector_Setup.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_show_takename_in_tooltip_near_mouse.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ShowTakenameInTooltipNearMouse/Mespotine_show_takename_in_tooltip_near_mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ArrangeViewScripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua</source>
@@ -22,24 +22,25 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorAreaStart_To_ItemStart_Under_the_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorAreaStart_To_ItemStart_Under_the_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Next_Transient_In_Item_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Next_Transient_In_Item_Under_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Previous_Transient_In_Item_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Previous_Transient_In_Item_Under_Mouse.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Right_Edge_of_RazorArea_Under_Mouse_To_Editcursor.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Right_Edge_of_RazorArea_Under_Mouse_To_Editcursor.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Left_Edge_of_RazorArea_Under_Mouse_To_Editcursor.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Left_Edge_of_RazorArea_Under_Mouse_To_Editcursor.lua</source>
 <changelog>
-  - 25th of September 2023 - Razor Edit actions create proper undo-points now
+  25th of September 2023 
+    - Razor Edit Actions for snapping razor-area-edges to the editcursor
+    - Razor Edit actions create proper undo-points now
+    - Razor Edit actions for enhancing edges of a razor area to the next/previous transient of an item under mouse.
+    - Razor Edit actions for snapping edges of a razor-area to edges of an item.
+  
+  24th of September 2023 
+    - Razor-Edit actions for nudging, removing razor areas, filling gaps and creating razor edits from time selection, all under the mouse.
+    - Quick Zoom - toggles between two zoomstates: 1. close to the project and 2. the last used zoom-factor
+    - Show Takename as tooltip near mouse - fixed bugs whith midi/empty items crashing the script. Shows now also Takename AND Sourcefilename.
 
-  - 25th of September 2023 - Razor Edit actions for enhancing edges of a razor area to the next/previous transient of an item under mouse.
-  
-  - 25th of September 2023 - Razor Edit actions for snapping edges of a razor-area to edges of an item.
-  
-  - 24th of September 2023 - Razor-Edit actions for nudging, removing razor areas, filling gaps and creating razor edits from time selection, all under the mouse.
-
-  - 24th of September 2023 - Quick Zoom - toggles between two zoomstates: 1. close to the project and 2. the last used zoom-factor
-  
-  - 24th of September 2023 - Show Takename as tooltip near mouse - fixed bugs whith midi/empty items crashing the script. Shows now also Takename AND Sourcefilename.
-
-  - 23rd of September 2023 - Show takename as tooltip near mouse - shows name of the take the mouse is currently hovering above as tooltip near the mouse
-  
-  - 23rd of September 2023 - Marker Selector v1.1 added, which allows you to quickly type any marker number and Reaper will jump to it.
-                      Install it via "Mespotine_Marker_Selector_Setup.lua". After setup, you can type any marker number you like.
-                      The commit time between having typed the marker and Reaper jumping to the marker can be set up with "Mespotine_Marker_Selector_SetWaitTime.lua".
+  23rd of September 2023 
+    - Show takename as tooltip near mouse - shows name of the take the mouse is currently hovering above as tooltip near the mouse
+    - Marker Selector v1.1 added, which allows you to quickly type any marker number and Reaper will jump to it.
+            Install it via "Mespotine_Marker_Selector_Setup.lua". After setup, you can type any marker number you like.
+            The commit time between having typed the marker and Reaper jumping to the marker can be set up with "Mespotine_Marker_Selector_SetWaitTime.lua".
 </changelog>
       </version>
       <metadata>
