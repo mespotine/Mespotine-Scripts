@@ -20,7 +20,11 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorAreaEnd_To_ItemEnd_Under_the_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorAreaEnd_To_ItemEnd_Under_the_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorArea_To_Item_Under_the_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorArea_To_Item_Under_the_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorAreaStart_To_ItemStart_Under_the_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_RazorAreaStart_To_ItemStart_Under_the_Mouse.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Next_Transient_In_Item_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Next_Transient_In_Item_Under_Mouse.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Previous_Transient_In_Item_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_To_Previous_Transient_In_Item_Under_Mouse.lua</source>
 <changelog>
+  - 25th of September 2023 - Razor Edit actions for enhancing edges of a razor area to the next/previous transient of an item under mouse.
+  
   - 25th of September 2023 - Razor Edit actions for snapping edges of a razor-area to edges of an item.
   
   - 24th of September 2023 - Razor-Edit actions for nudging, removing razor areas, filling gaps and creating razor edits from time selection, all under the mouse.
