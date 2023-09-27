@@ -32,10 +32,17 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Move_all_RazorEdits_by_1_second_left.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Move_all_RazorEdits_by_1_second_left.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Left_Edge_of_RazorArea_Under_Mouse_To_Editcursor(move_the_rest_accordingly).lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Left_Edge_of_RazorArea_Under_Mouse_To_Editcursor(move_the_rest_accordingly).lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Right_Edge_of_RazorArea_Under_Mouse_To_Editcursor(move_the_rest_accordingly).lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Snap_Right_Edge_of_RazorArea_Under_Mouse_To_Editcursor(move_the_rest_accordingly).lua</source>
-
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Compress_Razor_Area_by_0.5_on_the_right.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Compress_Razor_Area_by_0.5_on_the_right.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_by_2_to_the_right.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_by_2_to_the_right.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_by_2_to_the_left.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_by_2_to_the_left.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Compress_Razor_Area_by_0.5_on_the_left.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Compress_Razor_Area_by_0.5_on_the_left.lua</source>
+  
 <changelog>
+  27th of September 2023
+    - Razor Edit actions for enhancing by 2 or compressing by 0.5 the razor-areas. You can enhance/compress to the left or to the right.
+
   26th of September 2023
-    - Razor Edit Actions for moving all razor-edit-areas from all tracks and envelopes by 1 second/10 seconds/1 minute to the right or left
+    - Razor Edit actions for moving all razor-edit-areas from all tracks and envelopes by 1 second/10 seconds/1 minute to the right or left
     - Razor Edit actions for snapping edges of a razor-area to edges of an item, moving all razor-areas accordingly.
     
   25th of September 2023 
