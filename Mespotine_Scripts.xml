@@ -2,10 +2,11 @@
 <index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="script">
-      <version name="1.11" author="Meo Mespotine">
+      <version name="1.12" author="Meo Mespotine">
 	<source main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector_Setup.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_show_takename_in_tooltip_near_mouse.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ShowTakenameInTooltipNearMouse/Mespotine_show_takename_in_tooltip_near_mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ArrangeViewScripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua</source>
+
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_CreateFromTimeSelection_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_CreateFromTimeSelection_Under_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Fill_In_Or_Remove_Gap_Under_Mouse.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Fill_In_Or_Remove_Gap_Under_Mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Nudge_RazorArea_Under_Mouse_1_minute_left.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Nudge_RazorArea_Under_Mouse_1_minute_left.lua</source>
@@ -36,8 +37,13 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_under_mouse_by_2_to_the_right.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_under_mouse_by_2_to_the_right.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_under_mouse_by_2_to_the_left.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Enhance_Razor_Area_under_mouse_by_2_to_the_left.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Compress_Razor_Area_under_mouse_by_0.5_on_the_left.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Razor_Edit_Scripts/Mespotine_RazorEdit_Compress_Razor_Area_under_mouse_by_0.5_on_the_left.lua</source>
+  
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Import_Rendersettings_From_File.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Import_Rendersettings_From_File.lua</source>
 
 <changelog>
+  2nd of October 2023
+    - Render-script: import rendersettings from a projectfile into the current project
+  
   27th of September 2023
     - Razor Edit actions for enhancing by 2 or compressing by 0.5 the razor-areas. You can enhance/compress to the left or to the right.
 
