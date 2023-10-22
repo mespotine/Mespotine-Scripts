@@ -2,7 +2,7 @@
 <index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="script">
-      <version name="1.14" author="Meo Mespotine">
+      <version name="1.15" author="Meo Mespotine">
 	<source main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector_Setup.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_show_takename_in_tooltip_near_mouse.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ShowTakenameInTooltipNearMouse/Mespotine_show_takename_in_tooltip_near_mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ArrangeViewScripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua</source>
@@ -53,7 +53,26 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix+stems.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix+stems.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix.lua</source>
 
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_All_Project_Markers.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Set_Bounds_To_All_Project_Markers.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_All_Project_Regions.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_All_Project_Regions.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Custom_Time_Range.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Set_Bounds_To_Custom_Time_Range.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Entire_Project.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Entire_Project.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Selected_Markers.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Selected_Markers.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Selected_Regions.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Selected_Regions.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Time_Selection.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Time_Selection.lua</source>
+  
 <changelog>
+  22nd of October 2023
+    - Render: set bounds of the render-settings via script to
+      - Custom time range
+      - Entire project
+      - Time selection
+      - All project regions
+      - Selected regions
+      - All project markers
+      - Selected markers
+    - fixed bug with script that sets source to Razor edit areas via master, which set the wrong source
+    
   3rd of October 2023
     - Render: Set the source of the render-settings via script to 
         - Master mix
