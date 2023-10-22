@@ -2,7 +2,7 @@
 <index version="1" name="Mespotine-Scripts And Extensions">
   <category name="Mespotine-Scripts-category">
     <reapack name="Mespotine Scripts API package" type="script">
-      <version name="1.16" author="Meo Mespotine">
+      <version name="1.17" author="Meo Mespotine">
 	<source main="true" file="/Mespotine-Scripts/Mespotine_Marker_Selector_Setup.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Marker_Selector/Mespotine_Marker_Selector_Setup.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_show_takename_in_tooltip_near_mouse.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ShowTakenameInTooltipNearMouse/Mespotine_show_takename_in_tooltip_near_mouse.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua" type="script">https://github.com/mespotine/Mespotine-Scripts/raw/main/Mespotine_ArrangeViewScripts/Mespotine_Quick_Zoom_Between_Two_Zoomstates.lua</source>
@@ -51,7 +51,7 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Razor_edit_areas_via_master.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Razor_edit_areas_via_master.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Razor_edit_areas.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Razor_edit_areas.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix+stems.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix+stems.lua</source>
-  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix.lua" type="script">         https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Source_To_Master_Mix.lua</source>
 
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_All_Project_Markers.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_All_Project_Markers.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_All_Project_Regions.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_All_Project_Regions.lua</source>
