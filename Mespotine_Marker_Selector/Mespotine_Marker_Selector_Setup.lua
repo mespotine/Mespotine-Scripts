@@ -158,7 +158,7 @@ WriteValueToFile(path.."/Mespotine_Marker_Selector_SetWaitTime.lua",
 length=15 -- 33 = 1 sec; set it to lower if the waittime shall be shorter
 state=reaper.GetExtState("Mespotine", "Marker Selector Waittime")
 if state~="" then length=tonumber(state) end
-retval, length = reaper.GetUserInputs("Set the waiting-time for commit(33 for one second)", 1, "15=half a second; 1=a second", length)
+retval, length = reaper.GetUserInputs("Set the waiting-time for commit(33 for one second)", 1, "15=half a second; 33=a second, extrawidth=150", length)
 
 if tonumber(length)==nil then 
   reaper.MB("Must be a number!", "Error", 0) 
