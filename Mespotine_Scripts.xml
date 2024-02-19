@@ -61,8 +61,8 @@
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Selected_Regions.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Selected_Regions.lua</source>
   <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Time_Selection.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Set_Bounds_To_Time_Selection.lua</source>
   
-  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Play_Sound_When_Rendering_Finishes.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Play_Sound_When_Rendering_Finishes.lua</source>
-  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Choose_Sound_For_Play_Sound_When_Rendering_Finishes.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Choose_Sound_For_Play_Sound_When_Rendering_Finishes.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Choose_Sound_For_Play_Sound_When_Rendering_Finishes.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Choose_Sound_For_Play_Sound_When_Rendering_Finishes.lua</source>
+  <source main="true" file="/Mespotine-Scripts/Mespotine_Render_Scripts/Mespotine_Render_Play_Sound_When_Rendering_Finishes.lua" type="script">https://raw.githubusercontent.com/mespotine/Mespotine-Scripts/main/Mespotine_Render_Scripts/Mespotine_Render_Play_Sound_When_Rendering_Finishes.lua</source>
   
 <changelog>
   19th of February 2024
