@@ -77,13 +77,13 @@ function IsReaperRendering()
 end
 
 function PreviewMediaFile(filename_with_path, gain, loop, outputChannel)
-  if type(filename_with_path)~="string" then ultraschall.AddErrorMessage("PreviewMediaItem", "filename_with_path", "Must be a string.", -1) return false end
+  if type(filename_with_path)~="string" then return false end
   if reaper.file_exists(filename_with_path)== false then return false end
 
   if type(loop)~="boolean" then loop=false end
   if type(gain)~="number" then gain=1 end
   if outputChannel~=nil and math.type(outputChannel)~="integer" then return false end
-  if outputChannel==nil then outputChannel=1 end
+  if outputChannel==nil then outputChannel=0 end
 
   reaper.Xen_StopSourcePreview(-1)
   
@@ -101,13 +101,14 @@ function main()
   reaper.defer(main)
 end
 
---reaper.SetExtState("Mespotine", "SoundWhenRenderIsFinished", "", true)
+reaper.SetExtState("Mespotine", "SoundWhenRenderIsFinished", "", true)
 
 if reaper.GetExtState("Mespotine", "SoundWhenRenderIsFinished")=="" then
   A=reaper.MB("No sound yet selected, do you want to choose one?", "No sound yet", 4)
   if A==6 then
     retval, filename = reaper.GetUserFileNameForRead("", "Select Sound", "*.mp3;*.wav;*.flac;*.mp4;*.aif")
     if retval==true then reaper.SetExtState("Mespotine", "SoundWhenRenderIsFinished", filename, true) end
+    PreviewMediaFile(reaper.GetExtState("Mespotine", "SoundWhenRenderIsFinished"))
   end
 end
 
