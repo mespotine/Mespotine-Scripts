@@ -101,13 +101,17 @@ function main()
   reaper.defer(main)
 end
 
-reaper.SetExtState("Mespotine", "SoundWhenRenderIsFinished", "", true)
+--reaper.SetExtState("Mespotine", "SoundWhenRenderIsFinished", "", true)
 
 if reaper.GetExtState("Mespotine", "SoundWhenRenderIsFinished")=="" then
   A=reaper.MB("No sound yet selected, do you want to choose one?", "No sound yet", 4)
   if A==6 then
     retval, filename = reaper.GetUserFileNameForRead("", "Select Sound", "*.mp3;*.wav;*.flac;*.mp4;*.aif")
-    if retval==true then reaper.SetExtState("Mespotine", "SoundWhenRenderIsFinished", filename, true) end
+    if retval==true then 
+      reaper.SetExtState("Mespotine", "SoundWhenRenderIsFinished", filename, true) 
+    else 
+      return 
+    end
     PreviewMediaFile(reaper.GetExtState("Mespotine", "SoundWhenRenderIsFinished"))
   end
 end
