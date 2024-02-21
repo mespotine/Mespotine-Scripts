@@ -113,6 +113,8 @@ if reaper.GetExtState("Mespotine", "SoundWhenRenderIsFinished")=="" then
       return 
     end
     PreviewMediaFile(reaper.GetExtState("Mespotine", "SoundWhenRenderIsFinished"))
+  else 
+    return 
   end
 end
 
